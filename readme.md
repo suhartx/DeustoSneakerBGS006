@@ -41,16 +41,12 @@ mvn test
 mvn -Pdatos exec:java
 ```
 
-**Lanzar servidor cliente**
-
-*4.1-Lanzar server*
-```
-mvn clean javafx:run
- ```
+*Lanzar server*
 ```
 mvn exec:java
 ```
-*4.2-Lanzar cliente*
+*Lanzar cliente*
 ```
-mvn -Pcliente exec:java
+mvn javafx:run
+
 ```
